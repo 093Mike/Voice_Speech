@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                     ArrayList<String> speech = data
                             .getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
                     String strSpeech2Text = speech.get(0);
-                    grabar.setText("Texto reconocido:\n"+strSpeech2Text);
+                    grabar.setText("Voz reconocida:\n"+strSpeech2Text);
                 }
                 break;
             default:
